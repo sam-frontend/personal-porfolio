@@ -191,11 +191,13 @@ header .follow a:hover{
     font-size: 4.5rem;
     color:#111;
     text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .home .content h3 span{
     color:var(--main-color);
     text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .home .content .info{
