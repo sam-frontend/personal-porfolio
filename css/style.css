@@ -48,7 +48,7 @@ section{
 .heading span{
     color:var(--main-color);
     text-transform: uppercase;
-    "font-family:sofia";
+    "font-family:"sofia";
 }
 
 .btn{
