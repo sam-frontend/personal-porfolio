@@ -111,6 +111,8 @@ header .follow a{
     font-size: 2.5rem;
     color:#fff;
     margin:0 .7rem;
+    Justify-Content: center;
+    align-Item: center;
 }
 
 header .follow a:hover{
