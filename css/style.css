@@ -42,18 +42,6 @@ section{
     padding-bottom: 1rem;
     color:#111;
     text-transform: uppercase;
-animation:sam 7s infinite;
-}
-
-@keyframes sam{
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:355px;}
 }
 
 .heading span{
