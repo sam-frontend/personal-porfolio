@@ -42,7 +42,7 @@ section{
     padding-bottom: 1rem;
     color:#111;
     text-transform: uppercase;
-animation:Sam 7s infinite;
+animation:sam 7s infinite;
 }
 
 @keyframes sam{
