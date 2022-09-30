@@ -49,11 +49,6 @@ animation:sam 7s infinite;
     0% {opacity:0;}
     20% {opacity:1;}
     80% {opacity:1;}
-    100% {opacity:0;}
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
     30% {width:355px;}
@@ -65,23 +60,6 @@ animation:sam 7s infinite;
     color:var(--main-color);
     text-transform: uppercase;
     font-family:sofia;
-   animation:sam 7s infinite;
-}
-
-@keyframes sam{
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
-    100% {opacity:0;width:355px;}
 }
 
 .btn{
@@ -112,6 +90,23 @@ header{
     padding:8rem 2rem;
     width:30rem;
     text-align: center;
+     animation:sam 7s infinite;
+}
+
+@keyframes sam{
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
 }
 
 header .logo{
