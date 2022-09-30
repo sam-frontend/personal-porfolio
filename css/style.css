@@ -36,8 +36,15 @@ body{
 section{
     padding:1rem 5%;
     min-height: 100vh;
-animation:sam 7s infinite;
 }
+.heading{
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    color:#111;
+    text-transform: uppercase;
+animation:Sam 7s infinite;
+}
+
 @keyframes sam{
     0% {opacity:0;}
     20% {opacity:1;}
@@ -52,13 +59,6 @@ animation:sam 7s infinite;
     30% {width:355px;}
     80% {opacity:1;}
     100% {opacity:0;width:355px;}
-}
-
-.heading{
-    font-size: 4rem;
-    padding-bottom: 1rem;
-    color:#111;
-    text-transform: uppercase;
 }
 
 .heading span{
