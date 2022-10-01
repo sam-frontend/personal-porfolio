@@ -380,6 +380,10 @@ header .follow a:hover{
     font-size: 1.7rem;
     padding-top: .5rem;
 }
+.row>label {
+display:flex;
+align-items: centre;
+justify-content: centre;
 
 .service .box-container{
     display: flex;
