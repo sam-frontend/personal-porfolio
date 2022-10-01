@@ -29,11 +29,10 @@ html{
 }
 
 body{
-    background-image:('domenico-loia-hGV2TfOh0ns-unsplash.jpg');
+    background-image:url('domenico-loia-hGV2TfOh0ns-unsplash.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
     padding-left: 30rem;
 }
 
@@ -60,14 +59,9 @@ section{
     20% {opacity:1;}
     80% {opacity:1;}
     100% {opacity:0;}
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
     30% {width:355px;}
-    80% {opacity:1;}
     100% {opacity:0;width:355px;}
 }
 
