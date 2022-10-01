@@ -29,7 +29,11 @@ html{
 }
 
 body{
-    background:green;
+    background-color:url('img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
     padding-left: 30rem;
 }
 
