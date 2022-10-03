@@ -32,5 +32,13 @@ document.querySelectorAll('a').forEach(links =>{
         cursor1.classList.remove('active');
         cursor2.classList.remove('active');
     }
+    function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+    function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
 
 });
