@@ -31,7 +31,8 @@ html{
 body{
   background-color: white;
   color: black;
-    padding:25px;
+    padding:50px;
+    margin:50px;
 }
 .dark-mode {
   background-color: black;
