@@ -29,8 +29,10 @@ html{
 }
 
 body{
-  background-color: white;
+  background-image:personal-porfolio/images/domenico-loia-hGV2TfOh0ns-unsplash.jpg;
   color: black;
+   background-repeat: repeat;
+   background-cover: cover;
     padding:50px;
     margin:50px;
 }
