@@ -29,7 +29,7 @@ html{
 }
 
 body{
-  background-image:url("dominico-loia-hGV2TfOh0ns-unsplash.jpg");
+  background-color:brown;
   color: black;
    background-repeat: repeat;
    background-size: cover;
@@ -43,7 +43,6 @@ section{
 }
 .heading{
     font-size: 4rem;
-    font-family:Sarina;
     padding-bottom: 1rem;
     color:#111;
     text-transform: uppercase;
@@ -52,8 +51,7 @@ section{
 .heading span{
     color:var(--main-color);
     text-transform: uppercase;
-    font-family:sofia;
-    animation:sam 7s infinite;
+    animation:sam 7s;
 }
 
 @keyframes sam{
