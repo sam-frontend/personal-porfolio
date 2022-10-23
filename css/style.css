@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ariel,Roboto:wght@100;300;400;500;700&display=swap');
+Ii@import url('https://fonts.googleapis.com/css2?family=Ariel,Roboto:wght@100;300;400;500;700&display=swap');
 .dark .dark\:text-white {
     --tw-text-opacity: 1;
     color: rgba(255,255,255,var(--tw-text-opacity));
@@ -29,7 +29,7 @@ html{
 }
 
 body{
-  background-image:personal-porfolio/images/domenico-loia-hGV2TfOh0ns-unsplash.jpg;
+  background-image:url(domenico-loia-hGV2TfOh0ns-unsplash.jpg);
   color: black;
    background-repeat: repeat;
    background-cover: cover;
