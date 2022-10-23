@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ariel,Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ariel, Sarina,Roboto:wght@100;300;400;500;700&display=swap');
 .dark .dark\:text-white {
     --tw-text-opacity: 1;
     color: rgba(255,255,255,var(--tw-text-opacity));
@@ -29,16 +29,12 @@ html{
 }
 
 body{
-  background-image:url(domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+  background-image:url("dominico-loia-hGV2TfOh0ns-unsplash.jpg");
   color: black;
    background-repeat: repeat;
    background-size: cover;
     padding:50px;
     margin:50px;
-}
-.dark-mode {
-  background-color: black;
-  color: white;
 }
 
 section{
@@ -47,6 +43,7 @@ section{
 }
 .heading{
     font-size: 4rem;
+    font-family:Sarina;
     padding-bottom: 1rem;
     color:#111;
     text-transform: uppercase;
