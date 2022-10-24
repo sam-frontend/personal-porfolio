@@ -29,7 +29,7 @@ html{
 }
 
 body{
-  background-color:brown;
+  background-image: conic-gradient(at 60% 45%, red, yellow, green);
   color: black;
    background-repeat: repeat;
    background-size: cover;
@@ -46,6 +46,7 @@ section{
     padding-bottom: 1rem;
     color:#111;
     text-transform: uppercase;
+     text-shadow:2px 2px brown;
 }
 
 .heading span{
