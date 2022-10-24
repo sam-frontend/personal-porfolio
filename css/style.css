@@ -29,7 +29,7 @@ html{
 }
 
 body{
-  background-image: conic-gradient(at 60% 45%, red, yellow, green);
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   color: black;
    background-repeat: repeat;
    background-size: cover;
