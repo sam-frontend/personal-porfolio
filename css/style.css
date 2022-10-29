@@ -27,8 +27,11 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-.dark-mode{
-background-color: black;
+.dark-mode {
+  background-color: black;
+color: white;
+}
+body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   color: black;
    background-repeat: repeat;
