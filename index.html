@@ -24,11 +24,29 @@
     }
     document.head.append(s)
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+	<style>
+		/* This only works with JavaScript, 
+		   if it's not present, don't show loader */
+		.no-js #loader { display: none;  }
+		.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+	</style>
+	
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	
+	
+	<script src="https://github.com/Modernizr/Modernizr/raw/master/modernizr.js"></script>
+	<script>
+		// Wait for window load
+		$(window).load(function() {
+			// Animate loader off screen
+			$("#loader").animate({
+				top: -200
+			}, 1500);
+		});
+	</script>	
 </head>
 <button onclick="myFunction()">Toggle dark mode</button>
-<div class="se-pre-con"></div>
 <body>
 <div id="menu-bars" class="fas fa-bars"></div>
 <!-- header section starts  -->
@@ -379,15 +397,16 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
 </script>
-
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-<p>You can translate the content of this page by selecting a language in the select box.</p>
 <script>
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
 </script>
+
+	<img src="download.png" id="loader">
+	<img src="//farm6.static.flickr.com/5299/5400751421_55d49b2786_o.jpg">
+		
 </body>
 </html>
