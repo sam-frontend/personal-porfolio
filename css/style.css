@@ -27,8 +27,7 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
-body{
+.dark-mode{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   color: black;
    background-repeat: repeat;
