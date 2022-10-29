@@ -28,8 +28,8 @@ html{
     scroll-behavior: smooth;
 }
 .dark-mode {
-  background-color: black;
-color: white;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  color: black;
 }
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
