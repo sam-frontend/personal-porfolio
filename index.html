@@ -29,6 +29,14 @@
   background-color: black;
 }
 </style>
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </head>
 <body>
 <div id="menu-bars" class="fas fa-bars"></div>
