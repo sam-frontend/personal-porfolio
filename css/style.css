@@ -29,8 +29,7 @@ html{
 }
 #dark-mode-toggle{
   cursor: pointer;
-  margin-bottom:50px;
-  padding-bottom:70px;
+  border:1px solid gray;
   font-size: 2.5em;
   text-align: center;
 }
