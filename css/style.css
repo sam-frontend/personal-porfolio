@@ -37,7 +37,7 @@ html{
 
 .darkmode {
   color: #dcdcdc;
-  background-color: #222831;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
 }
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
