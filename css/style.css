@@ -30,7 +30,7 @@ html{
 #dark-mode-toggle{
   cursor: pointer;
   margin-bottom: auto;
-  padding-bottom:20px;
+  padding:50px;
   font-size: 2.5em;
   text-align: center;
 }
@@ -659,21 +659,6 @@ header .follow a:hover{
 .footer span{
     color:#000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
