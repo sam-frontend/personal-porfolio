@@ -29,6 +29,7 @@ html{
 }
 #dark-mode-toggle{
   cursor: pointer;
+  margin-bottom:50px;
   padding-bottom:70px;
   font-size: 2.5em;
   text-align: center;
@@ -45,7 +46,6 @@ body{
    background-size: cover;
     padding:50px;
     margin:50px;
-transition: background-color 1.5s, color 1s;
 }
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
