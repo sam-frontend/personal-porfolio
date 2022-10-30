@@ -30,7 +30,7 @@ html{
 #dark-mode-toggle{
   cursor: pointer;
   margin-bottom: auto;
-  padding-top:50px;
+  padding-bottom:50px;
   font-size: 2.5em;
   text-align: center;
 }
