@@ -37,15 +37,11 @@ html{
 .darkmode {
     background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
  color: black;
-   background-repeat: no-repeat;
-   background-size: cover;
-    padding:50px;
-    margin:50px
 }
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
  color: black;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
    background-size: cover;
     padding:50px;
     margin:50px; 
