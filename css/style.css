@@ -274,7 +274,6 @@ header .follow a:hover{
 
 .about .row-1 .content{
     flex:1 1 50rem;
-    margin:-50px;
 }
 
 .about .row-1 .content h3{
@@ -654,7 +653,7 @@ header .follow a:hover{
 html{ font-size:55%;}
 body{
 background-color: brown;
-margin:0;
+margin:-50px;
 position:block;}
 }
 @media (max-width:991px){
