@@ -217,11 +217,13 @@ header .follow a:hover{
 
 .home .content{
     flex:1 1 40rem;
+    margin:-50px;
 }
 
 .home .content .hi{
     font-size: 2rem;
     color:var(--main-color);
+    margin:-50px;
 }
 
 .home .content h3{
