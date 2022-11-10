@@ -537,7 +537,7 @@ header .follow a:hover{
     gap:1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
-    border-image:url(ugo.jpg);
+    border-image:url(ugo.png);
 }
 
 .contact .icons-container .icons{
