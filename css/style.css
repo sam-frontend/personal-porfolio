@@ -538,7 +538,7 @@ header .follow a:hover{
     flex-wrap: wrap;
     padding-bottom: 2rem;
     border-image:url(ugo.png);
-    border:5px solid transparent;
+    border:5px solid brown;
 }
 
 .contact .icons-container .icons{
