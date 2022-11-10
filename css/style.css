@@ -43,8 +43,8 @@ body{
  color: black;
    background-repeat: repeat;
    background-size: cover;
-    padding:50px;
-    margin:50px; 
+    padding:0px;
+    margin:0px;
 }
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -587,6 +587,7 @@ header .follow a:hover{
     padding:0 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
+     border:5px solid brown;
 }
 .contact .row .map{
     flex:1 1 25rem;
@@ -634,7 +635,7 @@ header .follow a:hover{
 }
 
 .footer{
-    margin-top: -2rem;
+    margin-top: 2rem
     font-size: 2rem;
     padding:2.5rem;
     text-align: center;
@@ -653,6 +654,7 @@ header .follow a:hover{
 html{ font-size:55%;}
 body{
 background-color: brown;
+margin:0;
 position:block;}
 }
 @media (max-width:991px){
@@ -663,6 +665,7 @@ position:block;}
     
     body{
         padding: 0;
+        margin:0;
     }
 
     #menu-bars{
