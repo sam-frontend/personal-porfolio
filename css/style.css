@@ -274,6 +274,7 @@ header .follow a:hover{
 
 .about .row-1 .content{
     flex:1 1 50rem;
+    margin:-50px;
 }
 
 .about .row-1 .content h3{
