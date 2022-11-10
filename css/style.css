@@ -537,8 +537,6 @@ header .follow a:hover{
     gap:1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
-    border-image:url(ugo.png);
-    border:5px solid brown;
 }
 
 .contact .icons-container .icons{
@@ -548,6 +546,8 @@ header .follow a:hover{
     background:#fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
+    border-image:url(ugo.png);
+    border:5px solid blue;
 }
 
 .contact .icons-container .icons i{
