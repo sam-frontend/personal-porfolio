@@ -77,12 +77,6 @@ section{
 
 @keyframes sam{
     0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
     100% {opacity:0;width:355px;}
 }
 
@@ -205,22 +199,11 @@ header .follow a:hover{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
-    animation:sam 7s infinite;
+    animation:sam 7s;
 }
 
 @keyframes sam{
     0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:355px;}
-    80% {opacity:1;}
     100% {opacity:0;width:355px;}
 }
 
@@ -554,6 +537,7 @@ header .follow a:hover{
     gap:1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+    border-image:url(ugo.jpg);
 }
 
 .contact .icons-container .icons{
@@ -661,6 +645,12 @@ header .follow a:hover{
 
 
 /* media queries  */
+@media screen and(max-width:767){
+html{ font-size:55%;}
+body{
+background-color: brown;
+position:block;}
+}
 @media (max-width:991px){
 
     html{
