@@ -29,7 +29,6 @@ html{
 }
 #dark-mode-toggle{
   cursor: pointer;
-border-bottom:1px solid gray;
   font-size: 2.5em;
   text-align: center;
 }
@@ -549,7 +548,7 @@ header .follow a:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
     border-image:url(ugo.png);
-    border:5px solid brown;
+    border:5px solid #e38528;
 }
 
 .contact .icons-container .icons i{
@@ -586,7 +585,7 @@ header .follow a:hover{
     padding:0 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
-     border:5px solid brown;
+     border:5px solid #e38528;
 }
 .contact .row .map{
     flex:1 1 25rem;
