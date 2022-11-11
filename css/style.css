@@ -212,6 +212,7 @@ header .follow a:hover{
 
 .home .image img{
     width:80%;
+   
 }
 
 .home .content{
@@ -495,6 +496,7 @@ header .follow a:hover{
     border-radius: .5rem;
     position: relative;
     z-index: 1;
+    border-color:or:#e38528;
 }
 
 .portfolio .box-container .box:hover img{
