@@ -267,7 +267,7 @@ header .follow a:hover{
     height: 80%;
     width:80%;
     object-fit: cover;
-    border:1rem solid #fff;
+    border:1rem solid #e38528;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -483,7 +483,7 @@ header .follow a:hover{
     height:25rem;
     position: relative;
     overflow:hidden;
-    border:1rem solid #fff;
+    border:1rem solid #e38528;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     background:#fff;
     border-radius: .5rem;
@@ -496,7 +496,7 @@ header .follow a:hover{
     border-radius: .5rem;
     position: relative;
     z-index: 1;
-    border-color:or:#e38528;
+    border-color:#e38528;
 }
 
 .portfolio .box-container .box:hover img{
