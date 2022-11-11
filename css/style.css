@@ -30,13 +30,19 @@ html{
 #dark-mode-toggle{
   cursor: pointer;
   font-size: 2.5em;
-  text-align: center;}
+  text-align: center;
+}
+
+.darkmode {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+ color: black;
+}
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
  color: black;
-   background-repeat: no-repeat;
+   background-attachment:sticky;
+   background-repeat: repeat;
    background-size: cover;
-    object-fit: cover;
     padding:0px;
     margin:0px;
 }
