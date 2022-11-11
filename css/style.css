@@ -648,13 +648,6 @@ header .follow a:hover{
 
 
 /* media queries  */
-@media screen and(max-width:767){
-html{ font-size:55%;}
-body{
-background-color: brown;
-margin:-50px;
-position:block;}
-}
 @media (max-width:991px){
 
     html{
@@ -663,7 +656,7 @@ position:block;}
     
     body{
         padding: 0;
-        margin:0;
+        margin:-50;
     }
 
     #menu-bars{
@@ -689,6 +682,7 @@ position:block;}
 
     html{
         font-size: 50%;
+        margin:-50;
     }
 
     header{
