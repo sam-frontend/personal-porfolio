@@ -33,16 +33,14 @@ html{
   text-align: center;
 }
 
-.darkmode {
-    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
- color: black;
-}
+
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
  color: black;
    background-attachment:sticky;
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    background-size: cover;
+    background-position: centre;
     padding:0px;
     margin:0px;
 }
