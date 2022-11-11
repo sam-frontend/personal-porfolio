@@ -656,7 +656,7 @@ header .follow a:hover{
     
     body{
         padding: 0;
-        margin:-50;
+        margin:0px;
     }
 
     #menu-bars{
@@ -682,7 +682,7 @@ header .follow a:hover{
 
     html{
         font-size: 50%;
-        margin:-50;
+        margin:0px;
     }
 
     header{
