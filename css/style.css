@@ -20,7 +20,6 @@
     text-transform: capitalize;
     transition: all .2s linear;
     line-height: 1.5;
-    background:Gray;
 }
 
 html{
@@ -37,8 +36,9 @@ html{
 
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+   height:80rem;
  color: black;
-   background-attachment:sticky;
+   background-attachment: fixed;
    background-repeat: no-repeat;
    background-size: cover;
     background-position: centre;
