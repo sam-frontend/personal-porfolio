@@ -72,14 +72,17 @@ darkModeToggle.addEventListener("click", () => {
 </script>
 </head>
 <div id="google_translate_element"></div>
-<div class='search'>
-<span class="fas fa-search"
-Search</span><input type="text" placeholder="search"/></div>
 <footer id="dark-mode-toggle">    
   <i class="fas fa-adjust"></i>
   <small> Toggle </small>
 </footer>
 <body>
+   <form role="search" id="form">
+      <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+      <button>
+        <i class='fas fa-search'></i>
+      </button>
+    </form>
 <div id="menu-bars" class="fas fa-bars"></div>
 <!-- header section starts  -->
 <header>
