@@ -44,15 +44,15 @@ body{
     margin:0px;
 }
  .form2{
-        background-color: #4654e1;
+        background-color: Gray;
         width: 100px;
-        height: 44px;
-        border-radius: 5px;
+        height: 30px;
+        border-radius: 20px;
         display:flex;
         flex-direction:row;
         align-items:flex-start;
       border:2px solid #e38528;
-      margin-top:-15px;
+      margin-top:-25px;
       }
 
       .input2{
@@ -70,7 +70,7 @@ body{
       }
 
       i{
-        color: Indego;
+        color: #e38528;
         fill: currentColor;
         width: 24px;
         height: 24px;
