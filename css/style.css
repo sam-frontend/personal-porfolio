@@ -41,7 +41,7 @@ body{
    background-size: cover;
     background-position: centre;
     padding:0px;
-    margin:-50px;
+    margin:0px;
 }
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
@@ -215,7 +215,7 @@ header .follow a:hover{
 
 .home .content{
     flex:1 1 40rem;
-    margin-top:-20px;
+    margin-top:10px;
 }
 
 .home .content .hi{
@@ -656,7 +656,7 @@ header .follow a:hover{
     
     body{
         padding: 0;
-        margin:-50px;
+        margin:0%;
     }
 
     #menu-bars{
