@@ -678,7 +678,7 @@ header .follow a:hover{
 
 }
 
-@media screen(min-width:200px)and(max-width:450px){
+@media screen(max-width:450px){
    body{
       margin:-50px;
         }
