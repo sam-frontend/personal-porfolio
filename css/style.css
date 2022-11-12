@@ -51,8 +51,8 @@ body{
         display:flex;
         flex-direction:row;
         align-items:flex-start;
-      border:1px solid #e38528;
-      margin-top:-5px;
+      border:2px solid #e38528;
+      margin-top:-15px;
       }
 
       .input2{
