@@ -62,11 +62,13 @@ body{
         height: 100%;
         width: 100%;
         padding: 6px 10px;
+      float: centre;
       }
 
-      .form2::placeholder {
+      .input2::placeholder {
         color: #e338528;
         opacity: 0.7; 
+        float: centre;
       }
 
       i{
@@ -75,6 +77,7 @@ body{
         width: 24px;
         height: 24px;
         padding: 10px;
+       float: centre;
       }
 
       .btn2 {
