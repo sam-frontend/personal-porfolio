@@ -32,8 +32,6 @@ html{
   font-size: 2.5em;
   text-align: center;
 }
-
-
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
    height:80rem;
@@ -217,7 +215,7 @@ header .follow a:hover{
 
 .home .content{
     flex:1 1 40rem;
-    margin-top:-50px;
+    margin-top:-60px;
 }
 
 .home .content .hi{
@@ -658,7 +656,7 @@ header .follow a:hover{
     
     body{
         padding: 0;
-        margin:0;
+        margin:-50px;
     }
 
     #menu-bars{
@@ -680,7 +678,10 @@ header .follow a:hover{
 
 }
 
-@media (max-width:450px){
+@media screen(min-width:200px)and(max-width:450px){
+   body{
+      margin:-50px;
+        }
 
     html{
         font-size: 50%;
