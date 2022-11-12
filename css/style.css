@@ -43,7 +43,7 @@ body{
     padding:0px;
     margin:0px;
 }
- form {
+ .form2{
         background-color: #4654e1;
         width: 300px;
         height: 44px;
@@ -53,7 +53,7 @@ body{
         align-items:center;
       }
 
-      input {
+      .input2{
         all: unset;
         font: 16px system-ui;
         color: #fff;
@@ -75,7 +75,7 @@ body{
         padding: 10px;
       }
 
-      button {
+      .btn2 {
         all: unset;
         cursor: pointer;
         width: 44px;
