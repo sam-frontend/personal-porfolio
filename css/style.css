@@ -44,13 +44,13 @@ body{
     margin:0px;
 }
  .form2{
-        background-color: Gray;
+        background-color: #fff;
         width: 100px;
         height: 30px;
         border-radius: 20px;
         display:flex;
         flex-direction:row;
-        align-items:flex-start;
+        align-items: centre;
       border:2px solid #e38528;
       margin-top:-25px;
       }
