@@ -30,6 +30,11 @@ body{
     padding:0px;
     margin:0px;
 }
+.darkmode{
+        display:flex;
+        align-items: centre;
+        justify-content: centre;
+}
  .form2{
         background-color: #fff;
         width: 100px;
