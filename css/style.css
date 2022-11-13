@@ -32,7 +32,7 @@ body{
 }
 .darkmode{
         display:flex;
-       align-items: centre;
+       align-item:centre;
        justify-content: centre;
        color:brown;
         height:50px;
