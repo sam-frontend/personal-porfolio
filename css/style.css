@@ -584,7 +584,6 @@ header .follow a:hover{
     gap:1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
-    border:5px solid #e38528;
 }
 
 .contact .icons-container .icons{
@@ -633,11 +632,6 @@ header .follow a:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
      border:5px solid #e38528;
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.27);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
 }
 .contact .row .map{
     flex:1 1 25rem;
@@ -656,6 +650,11 @@ backdrop-filter: blur(5px);
     font-size: 1.7rem;
     padding:1rem 0;
     margin:1rem 0;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.27);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
 }
 
 .contact .row form .box:focus,
