@@ -31,7 +31,12 @@ body{
     margin:0px;
 }
 .darkmode{
-        
+        display:flex;
+       align-items: centre;
+       justify-content: centre;
+       color:brown;
+        height:50px;
+       width:50px;
 }
  .form2{
         background-color: #fff;
