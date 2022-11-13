@@ -24,18 +24,6 @@
     }
     document.head.append(s)
 </script>
-	<style>
-		/* This only works with JavaScript, 
-		   if it's not present, don't show loader */
-		.no-js #loader { display: none;  }
-		.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-	</style>
-	
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-	
-	
-	<script src="https://github.com/Modernizr/Modernizr/raw/master/modernizr.js"></script>
 	<script>
 		// Wait for window load
 		$(window).load(function() {
@@ -45,31 +33,6 @@
 			}, 1500);
 		});
 	</script>	
-<script>
-let darkMode = localStorage.getItem("darkMode");
-
-function enableDarkMode() {
-  document.body.classList.add("darkmode");
-  localStorage.setItem("darkMode", "enabled");
-}
-
-function disableDarkMode() {
-  document.body.classList.remove("darkmode");
-  localStorage.setItem("darkMode", null);
-}
-
-if (darkMode === "enabled") {
-  enableDarkMode();
-}
-
-// Listeners
-
-const darkModeToggle = document.querySelector("#dark-mode-toggle");
-darkModeToggle.addEventListener("click", () => {
-  darkMode = localStorage.getItem("darkMode");
-  darkMode !== "enabled" ? enableDarkMode() : disableDarkMode();
-});
-</script>
 </head>
 <footer id="dark-mode-toggle">    
   <i class="fas fa-adjust"></i>
