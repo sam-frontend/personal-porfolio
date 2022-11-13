@@ -34,6 +34,8 @@ body{
         display:flex;
         align-items: centre;
         justify-content: centre;
+        height:100px;
+        Width:50px;
 }
  .form2{
         background-color: #fff;
