@@ -30,14 +30,6 @@ body{
     padding:0px;
     margin:0px;
 }
-.darkm{
-        display:flex;
-       align-items: centre;
-       justify-content: centre;
-       color:brown;
-        height:100px;
-       width:100px;
-}
  .form2{
         background-color: #fff;
         width: 100px;
