@@ -94,10 +94,12 @@ section{
     animation:sam 7s;
 }
 
-@keyframes sam{
-    0% {opacity:0;}
+@keyframes Sam{
+	to { width: 0 }
 }
-
+@keyframes Sam{
+	50% { color: transparent }
+}
 .btn{
     display: inline-block;
     margin-top: 1rem;
