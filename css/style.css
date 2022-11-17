@@ -232,7 +232,9 @@ header .follow a:hover{
 .home .content .hi{
     font-size: 2rem;
     color:var(--main-color);
-    margin-top:10px;
+    margin-top:-50px;
+}
+hi {
   width: 22ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
