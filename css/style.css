@@ -91,51 +91,6 @@ section{
 .heading span{
     color:var(--main-color);
     text-transform: uppercase;
-
-        font-size: 90px; 
-
-        white-space: nowrap; 
-
-        overflow: hidden; 
-
-        animation: typewriter 2s steps(13) infinite alternate, 
-
-          blink 800ms steps(13) infinite normal; 
-
-        border-right: 5px solid black; 
-
-      } 
-
-      @keyframes typewriter { 
-
-        from { 
-
-          width: 0%; 
-
-        } 
-
-        to { 
-
-          width: 50%; 
-
-        } 
-
-      } 
-
-      @keyframes blink { 
-
-        from { 
-
-          border-color: black; 
-
-        } 
-
-        to { 
-
-          border-color: transparent; 
-
-        } 
-
       } 
 .btn{
     display: inline-block;
@@ -259,10 +214,6 @@ header .follow a:hover{
     animation:sam 7s;
 }
 
-@keyframes sam{
-    0% {opacity:0;}
-}
-
 .home .image{
     flex:1 1 30rem;
 }
@@ -281,23 +232,54 @@ header .follow a:hover{
     font-size: 2rem;
     color:var(--main-color);
     margin-top:10px;
-  position: relative;
-	&::after {
-    content: "|";
-    position: absolute;
-    right: 0;
-    width: 100%;
-    animation: typing $animation-time steps($text-length) forwards,
-      caret 1s infinite;
-  }
-}
-// Animation
-@keyframes typing {
-	to { width: 0 }
-}
-@keyframes caret {
-	50% { color: transparent }
-}
+   }
+h1 { 
+
+        font-size: 90px; 
+
+        white-space: nowrap; 
+
+        overflow: hidden; 
+
+        animation: typewriter 2s steps(13) infinite alternate, 
+
+          blink 800ms steps(13) infinite normal; 
+
+        border-right: 5px solid black; 
+
+      } 
+
+      @keyframes typewriter { 
+
+        from { 
+
+          width: 0%; 
+
+        } 
+
+        to { 
+
+          width: 50%; 
+
+        } 
+
+      } 
+
+      @keyframes blink { 
+
+        from { 
+
+          border-color: black; 
+
+        } 
+
+        to { 
+
+          border-color: transparent; 
+
+        } 
+
+      } 
 
 .home .content h3{
     font-size: 4.5rem;
