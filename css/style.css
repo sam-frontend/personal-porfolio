@@ -230,24 +230,16 @@ header .follow a:hover{
 }
 
 .home .content .hi{
-    font-size: 2rem;
+    font-size: 3rem;
     color:var(--main-color);
-    margin-top:-10px
-  width: 22ch;
-  }
-
-   
-h1 { 
-
-        font-size: 90px; 
-
-        white-space: nowrap; 
+    margin-top:-10px;
+   white-space: nowrap; 
 
         overflow: hidden; 
 
         animation: typewriter 3s steps(16) infinite alternate, 
 
-          blink 800ms steps(16) infinite normal; 
+          blink 800ms steps(16) normal; 
 
         border-right: 5px solid black; 
 
@@ -263,7 +255,55 @@ h1 {
 
         to { 
 
-          width: 100%; 
+          width: 80%;
+
+        } 
+
+      } 
+
+      @keyframes blink { 
+
+        from { 
+
+          border-color: black; 
+
+        } 
+
+        to { 
+
+          border-color: transparent; 
+
+        } 
+
+}
+
+h1 { 
+
+        font-size: 90px; 
+
+        white-space: nowrap; 
+
+        overflow: hidden; 
+
+        animation: typewriter 3s steps(16) infinite alternate, 
+
+          blink 800ms steps(16) normal; 
+
+        border-right: 5px solid black; 
+
+      } 
+
+      @keyframes typewriter { 
+
+        from { 
+
+          width: 0%; 
+
+        } 
+
+        to { 
+
+          width: 80%;
 
         } 
 
