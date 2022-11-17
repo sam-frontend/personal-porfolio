@@ -91,13 +91,21 @@ section{
 .heading span{
     color:var(--main-color);
     text-transform: uppercase;
-    animation:sam 7s;
+  position: relative;
+	&::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    animation: typing $animation-time steps($text-length) forwards,
+      caret 1s infinite;
+  }
 }
-
-@keyframes Sam{
+// Animation
+@keyframes typing {
 	to { width: 0 }
 }
-@keyframes Sam{
+@keyframes caret {
 	50% { color: transparent }
 }
 .btn{
