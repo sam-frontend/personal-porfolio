@@ -236,7 +236,7 @@ header .follow a:hover{
 
         overflow: hidden; 
 
-        animation: typewriter 3s steps(16) alternate, 
+        animation: typewriter 3s steps(16) infinite alternate, 
 
           blink 800ms steps(16) normal; 
 
