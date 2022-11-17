@@ -245,9 +245,9 @@ h1 {
 
         overflow: hidden; 
 
-        animation: typewriter 2s steps(13) infinite alternate, 
+        animation: typewriter 3s steps(16) infinite alternate, 
 
-          blink 800ms steps(13) infinite normal; 
+          blink 800ms steps(16) infinite normal; 
 
         border-right: 5px solid black; 
 
