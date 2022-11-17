@@ -39,7 +39,7 @@ body{
         flex-direction:row;
         align-items: centre;
       border:2px solid #e38528;
-      margin-top:-25px;
+      margin-top:25px;
       }
 
       .input2{
@@ -65,7 +65,7 @@ body{
         width: 24px;
         height: 24px;
         padding: 10px;
-        margin:10px;
+        margin-bottom:10px;
        margin-right:2px;
        float: centre;
       }
@@ -236,7 +236,7 @@ header .follow a:hover{
 
         overflow: hidden; 
 
-        animation: typewriter 3s steps(16) infinite alternate, 
+        animation: typewriter 3s steps(16) alternate, 
 
           blink 800ms steps(16) normal; 
 
