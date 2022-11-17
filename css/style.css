@@ -31,7 +31,7 @@ body{
     margin:0px;
 }
  .form2{
-        background-color: #e2e2;
+        background-color: #fff;
         width: 100px;
         height: 30px;
         border-radius: 20px;
@@ -39,7 +39,7 @@ body{
         flex-direction:row;
         align-items: centre;
       border:2px solid #e38528;
-      margin-top:-15px;
+      margin-top:-20px;
       }
 
       .input2{
@@ -55,7 +55,7 @@ body{
       .form2.input2::placeholder {
         color: #e338528;
         opacity: 0.7; 
-        margin-bottom:-5px;
+        margin-bottom:-10px;
         float: centre;
       }
 
