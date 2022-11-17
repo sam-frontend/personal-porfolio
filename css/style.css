@@ -91,23 +91,52 @@ section{
 .heading span{
     color:var(--main-color);
     text-transform: uppercase;
-  position: relative;
-	&::after {
-    content: "|";
-    position: absolute;
-    right: 0;
-    width: 100%;
-    animation: typing $animation-time steps($text-length) forwards,
-      caret 1s infinite;
-  }
-}
-// Animation
-@keyframes typing {
-	to { width: 0 }
-}
-@keyframes caret {
-	50% { color: transparent }
-}
+
+        font-size: 90px; 
+
+        white-space: nowrap; 
+
+        overflow: hidden; 
+
+        animation: typewriter 2s steps(13) infinite alternate, 
+
+          blink 800ms steps(13) infinite normal; 
+
+        border-right: 5px solid black; 
+
+      } 
+
+      @keyframes typewriter { 
+
+        from { 
+
+          width: 0%; 
+
+        } 
+
+        to { 
+
+          width: 50%; 
+
+        } 
+
+      } 
+
+      @keyframes blink { 
+
+        from { 
+
+          border-color: black; 
+
+        } 
+
+        to { 
+
+          border-color: transparent; 
+
+        } 
+
+      } 
 .btn{
     display: inline-block;
     margin-top: 1rem;
