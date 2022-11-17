@@ -232,12 +232,11 @@ header .follow a:hover{
 .home .content .hi{
     font-size: 3rem;
     color:var(--main-color);
-    margin-top:-10px;
    white-space: nowrap; 
 
         overflow: hidden; 
 
-        animation: typewriter 3s steps(16) infinite alternate, 
+        animation: typewriter 3s steps(16) alternate, 
 
           blink 800ms steps(16) normal; 
 
