@@ -227,6 +227,13 @@ header .follow a:hover{
     flex:1 1 40rem;
     margin-top:-20px;
   width: 22ch;
+}
+
+.home .content .hi{
+    font-size: 2rem;
+    color:var(--main-color);
+    margin-top:10px;
+  width: 22ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -246,12 +253,6 @@ header .follow a:hover{
     border-color: transparent
   }
 }
-}
-
-.home .content .hi{
-    font-size: 2rem;
-    color:var(--main-color);
-    margin-top:10px;
    }
 h1 { 
 
