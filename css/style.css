@@ -228,6 +228,15 @@ header .follow a:hover{
     margin-top:-20px;
   width: 22ch;
 }
+tooltip {
+top: -5px;
+  right: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 
 .home .content .hi{
     font-size: 3rem;
