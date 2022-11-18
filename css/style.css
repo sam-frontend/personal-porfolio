@@ -370,6 +370,12 @@ h1 {
     border:1rem solid #e38528;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    top: -5px;
+  right: 105%;
+}
+
+.about:hover .image{
+  visibility: visible;
 }
 
 .about .row-1 .content{
@@ -751,8 +757,6 @@ backdrop-filter: blur(5px);
 .footer span{
     color:#000;
 }
-
-
 
 /* media queries  */
 @media (max-width:991px){
