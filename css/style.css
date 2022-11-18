@@ -238,9 +238,10 @@ header .follow a:hover{
 
         animation: typewriter 3s steps(16) alternate, 
 
-          blink 800ms steps(16) normal; 
+          blink 900ms steps(16) infinite normal; 
 
         border-right: 5px solid black; 
+       animation-iteration-count: 2;
 
       } 
 
@@ -286,9 +287,10 @@ h1 {
 
         animation: typewriter 3s steps(16) infinite alternate, 
 
-          blink 800ms steps(16) normal; 
+          blink 900ms steps(16) infinite normal; 
 
         border-right: 5px solid black; 
+        animation-iteration-count: 2;
 
       } 
 
