@@ -236,11 +236,11 @@ header .follow a:hover{
 
         overflow: hidden; 
 
-        animation: typewriter 3s steps(16) alternate, 
+        animation: typewriter 3s steps(16) infinite alternate, 
 
-          blink 900ms steps(16) infinite normal; 
+          blink 2s steps(16) infinite normal; 
 
-        border-right: 5px solid black; 
+        border-right: 5px solid brown; 
        animation-iteration-count: 2;
 
       } 
@@ -265,7 +265,7 @@ header .follow a:hover{
 
         from { 
 
-          border-color: black; 
+          border-color: brown;
 
         } 
 
