@@ -159,6 +159,14 @@ header .follow a{
 header .follow a:hover{
     color:var(--main-color);
 }
+.image{
+top: -5px;
+  right: 105%;
+}
+
+.image:hover .h3{
+  visibility: visible;
+}
 
 #menu-bars{
     position: fixed;
