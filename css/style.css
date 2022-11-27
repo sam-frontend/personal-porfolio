@@ -18,7 +18,6 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    columns:250px auto;
 }
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
@@ -781,6 +780,7 @@ transform:Arotate (0.5turn);
     body{
         padding: 0;
         margin:0%;
+        columns:100px;
     }
 
     #menu-bars{
@@ -805,11 +805,11 @@ transform:Arotate (0.5turn);
 @media (max-width:450px){
    body{
       margin:0px;
-        columns:250px auto;
         }
 
     html{
         font-size: 50%;
+      columns:100px;
     }
 
     header{
