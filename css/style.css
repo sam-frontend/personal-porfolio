@@ -12,6 +12,7 @@
     text-transform: capitalize;
     transition: all .2s linear;
     line-height: 1.5;
+     columns:250px auto;
 }
 
 html{
@@ -29,7 +30,6 @@ body{
     background-position: centre;
     padding:0px;
     margin:0px;
-       columns:250px auto;
 }
  .form2{
         background-color: #e2e2;
