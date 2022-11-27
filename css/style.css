@@ -18,7 +18,6 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    columns:250px auto;
 }
 body{
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
@@ -30,6 +29,7 @@ body{
     background-position: centre;
     padding:0px;
     margin:0px;
+       columns:250px auto;
 }
  .form2{
         background-color: #e2e2;
