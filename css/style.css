@@ -12,7 +12,6 @@
     text-transform: capitalize;
     transition: all .2s linear;
     line-height: 1.5;
-     columns:250px auto;
 }
 
 html{
