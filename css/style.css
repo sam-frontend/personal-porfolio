@@ -775,6 +775,7 @@ transform:Arotate (0.5turn);
 
     html{
         font-size: 55%;
+     width:250px auto;
     }
     
     body{
@@ -808,7 +809,6 @@ transform:Arotate (0.5turn);
 
     html{
         font-size: 50%;
-      width:100px;
     }
 
     header{
