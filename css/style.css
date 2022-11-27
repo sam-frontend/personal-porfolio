@@ -805,11 +805,11 @@ transform:Arotate (0.5turn);
 @media (max-width:450px){
    body{
       margin:0px;
+        columns:250px auto;
         }
 
     html{
         font-size: 50%;
-        columns:250px auto;
     }
 
     header{
